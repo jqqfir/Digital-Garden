@@ -343,7 +343,7 @@
  :journal/page-title-format "yyyy-MM-dd"
  :feature/enable-timetracking? false
  :feature/enable-journals? false
- :default-home {:page "Digital Garden"}
+ :default-home {:page "首页"}
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
