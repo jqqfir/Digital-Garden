@@ -242,7 +242,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["Digital Garden" "Tweet"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -342,8 +342,9 @@
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
  :feature/enable-timetracking? false
- :feature/enable-journals? false
- :default-home {:page "首页"}
+ :feature/enable-journals? true
+ :default-home {:page "Digital Garden"}
+ :feature/enable-whiteboards? true
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
